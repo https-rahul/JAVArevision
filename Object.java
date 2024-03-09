@@ -15,11 +15,14 @@ public class Object {
 
     public static void main(String[] args) {
 
-        // objects are created to access the variables and methods of another class
-        // new keyword is responsible to allocate memory to the process
+        /*  
+            objects are created to access the variables and methods of another class
+            "new" keyword is responsible to allocate memory to the process
+        */
+
         Calc obj = new Calc(); // knows something does something
 
-        // object is now used to access vars and methods outside their class
+        //  object is now used to access vars and methods outside their class
         obj.num1 = 3;
         obj.num2 = 5;
 
