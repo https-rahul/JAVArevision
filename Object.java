@@ -6,20 +6,17 @@ class Calc {
     int num2;
     int result;
 
-    public void perform() { // does something
+    public void perform() { // does something, behaviour
         result = num1 + num2;
     }
 }
 
 public class Object {
 
+    // main is the start of execution.
     public static void main(String[] args) {
 
-        /*  
-            objects are created to access the variables and methods of another class
-            "new" keyword is responsible to allocate memory to the process
-        */
-
+        // reference vairable obj of type Calc.
         Calc obj = new Calc(); // knows something does something
 
         //  object is now used to access vars and methods outside their class
