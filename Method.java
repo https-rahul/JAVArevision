@@ -1,5 +1,9 @@
+// demonstrating how to create methods and overload them.
 
 class Calculator {
+
+    // instance variable
+    int num;
 
     // these methods of classes define what they can do
     public int add(int n1, int n2){
@@ -7,6 +11,7 @@ class Calculator {
     }
 
     // method overloading, same method name but different parameters.
+    // n1, n2, n3 are the local variable
     public String add(int n1, int n2, int n3){
         int sum = n1+n2+n3;
         return "Method overloading: " +sum;
